@@ -10,10 +10,8 @@ function getShippingCost(country) {
       return "Shipping to Chile will cost 250 credits";
     case "Jamaica":
       return "Shipping to Jamaica will cost 120 credits";
-    case "Sweden":
-      return "Sorry, there is no delivery to your country";
     default:
-      return "Country not Found";
+      return "Sorry, there is no delivery to your country";
   }
 }
 console.log(getShippingCost("Australia")); // "Shipping to Australia will cost 170 credits"
